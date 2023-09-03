@@ -64,7 +64,7 @@ print("2. Decrypt. Make sure the message parts of only the current message")
 print("are in the folder containing the otp program.")
 print(20 * "-")
 
-choice = input("Enter your choice [1-9] : ")
+choice = input("Enter your choice: ")
 
 choice = int(choice)
 
