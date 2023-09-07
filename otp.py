@@ -56,8 +56,6 @@ def decrypt():
     decode = (ciphertext ^ keytext).bytes.decode()
     print(decode)
 
-
-print(20 * "-")
 print(20 * "-")
 print("1. Encrypt keyboard input to text files, RNG: coin flips entered on keyboard")
 print("2. Decrypt. Make sure the message parts of only the current message")
