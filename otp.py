@@ -52,6 +52,7 @@ def decrypt():
     for filename in glob.glob("*msgpart2.txt"):
         keycontent = open(filename, "r").read()
     keytext = BitArray(bin=keycontent)
+    input("Press enter to exit")
 
     decode = (ciphertext ^ keytext).bytes.decode()
     print(decode)
