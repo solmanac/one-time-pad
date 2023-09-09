@@ -38,6 +38,9 @@ def keyboardinputcoinfliprng():
     print("message bits: " + split4(msgbits.bin))
     print("key bits:     " + split4(key.bin))
     print("cipher bits:  " + split4(cipher.bin))
+    print("message bits: " + split4(msgbits.hex))
+    print("key bits:     " + split4(key.hex))
+    print("cipher bits:  " + split4(cipher.hex))    
     ciphertext.close()
 
     keytext = open(keyfilename, "w")
