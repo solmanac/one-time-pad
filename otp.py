@@ -46,6 +46,7 @@ def keyboardinputcoinfliprng():
     keytext = open(keyfilename, "w")
     keytext.write(key.bin)
     keytext.close()
+    input("Press enter to exit")
 
 def decrypt():
     for filename in glob.glob("*msgpart1.txt"):
